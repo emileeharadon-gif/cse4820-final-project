@@ -1,0 +1,268 @@
+{
+  "model": "logreg",
+  "test_clips": 370,
+  "accuracy": 0.3675675675675676,
+  "macro_f1": 0.37179241868946145,
+  "per_class": {
+    "Baeolophus ridgwayi": {
+      "precision": 0.27586206896551724,
+      "recall": 0.3333333333333333,
+      "f1": 0.3018867924528302,
+      "support": 24
+    },
+    "Catharus ustulatus": {
+      "precision": 0.75,
+      "recall": 0.65625,
+      "f1": 0.7,
+      "support": 32
+    },
+    "Chondestes grammacus": {
+      "precision": 0.5,
+      "recall": 0.5714285714285714,
+      "f1": 0.5333333333333333,
+      "support": 28
+    },
+    "Melospiza lincolnii": {
+      "precision": 0.13333333333333333,
+      "recall": 0.11428571428571428,
+      "f1": 0.12307692307692308,
+      "support": 35
+    },
+    "Mimus polyglottos": {
+      "precision": 0.5172413793103449,
+      "recall": 0.5769230769230769,
+      "f1": 0.5454545454545454,
+      "support": 26
+    },
+    "Passerella schistacea": {
+      "precision": 0.3157894736842105,
+      "recall": 0.3870967741935484,
+      "f1": 0.34782608695652173,
+      "support": 31
+    },
+    "Passerina amoena": {
+      "precision": 0.09375,
+      "recall": 0.09090909090909091,
+      "f1": 0.09230769230769231,
+      "support": 33
+    },
+    "Salpinctes obsoletus": {
+      "precision": 0.1875,
+      "recall": 0.07142857142857142,
+      "f1": 0.10344827586206896,
+      "support": 42
+    },
+    "Setophaga occidentalis": {
+      "precision": 0.29411764705882354,
+      "recall": 0.625,
+      "f1": 0.4,
+      "support": 16
+    },
+    "Spizella atrogularis": {
+      "precision": 0.6451612903225806,
+      "recall": 0.6451612903225806,
+      "f1": 0.6451612903225806,
+      "support": 31
+    },
+    "Spizella breweri": {
+      "precision": 0.4186046511627907,
+      "recall": 0.6206896551724138,
+      "f1": 0.5,
+      "support": 29
+    },
+    "Vireo cassinii": {
+      "precision": 0.21428571428571427,
+      "recall": 0.13953488372093023,
+      "f1": 0.16901408450704225,
+      "support": 43
+    }
+  },
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      5,
+      3,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      4
+    ],
+    [
+      3,
+      21,
+      0,
+      0,
+      2,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      16,
+      0,
+      6,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      4,
+      1,
+      0,
+      14,
+      1,
+      6,
+      0,
+      0,
+      7
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      15,
+      4,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      2,
+      0,
+      1,
+      12,
+      1,
+      1,
+      3,
+      1,
+      2,
+      6
+    ],
+    [
+      1,
+      0,
+      0,
+      3,
+      1,
+      3,
+      3,
+      0,
+      7,
+      3,
+      12,
+      0
+    ],
+    [
+      5,
+      0,
+      3,
+      19,
+      1,
+      0,
+      4,
+      3,
+      3,
+      1,
+      3,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      9,
+      0,
+      0,
+      0,
+      20,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      1,
+      0,
+      1,
+      3,
+      18,
+      2
+    ],
+    [
+      3,
+      0,
+      6,
+      1,
+      0,
+      0,
+      9,
+      9,
+      3,
+      0,
+      6,
+      6
+    ]
+  ],
+  "classes": [
+    "Baeolophus ridgwayi",
+    "Catharus ustulatus",
+    "Chondestes grammacus",
+    "Melospiza lincolnii",
+    "Mimus polyglottos",
+    "Passerella schistacea",
+    "Passerina amoena",
+    "Salpinctes obsoletus",
+    "Setophaga occidentalis",
+    "Spizella atrogularis",
+    "Spizella breweri",
+    "Vireo cassinii"
+  ],
+  "best_params": {
+    "C": 0.1
+  },
+  "val_macro_f1": 0.2710157984594075
+}
