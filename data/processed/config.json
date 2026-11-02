@@ -1,0 +1,38 @@
+{
+  "label_map": {
+    "Baeolophus ridgwayi": 0,
+    "Catharus ustulatus": 1,
+    "Chondestes grammacus": 2,
+    "Melospiza lincolnii": 3,
+    "Mimus polyglottos": 4,
+    "Passerella schistacea": 5,
+    "Passerina amoena": 6,
+    "Salpinctes obsoletus": 7,
+    "Setophaga occidentalis": 8,
+    "Spizella atrogularis": 9,
+    "Spizella breweri": 10,
+    "Vireo cassinii": 11
+  },
+  "sample_rate": 22050,
+  "clip_seconds": 5.0,
+  "min_tail_seconds": 2.5,
+  "n_fft": 2048,
+  "hop_length": 512,
+  "n_mels": 128,
+  "n_mfcc": 20,
+  "fmax": 11025,
+  "seed": 42,
+  "n_species": 12,
+  "split_fractions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "max_clips_per_recording": 10,
+  "mel_mean": -34.08977127075195,
+  "mel_std": 15.5039644241333,
+  "logmel_shape": [
+    128,
+    216
+  ]
+}
