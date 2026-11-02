@@ -1,0 +1,352 @@
+{
+  "model": "cnnmax",
+  "test_clips": 370,
+  "accuracy": 0.27297297297297296,
+  "macro_f1": 0.2848443056565287,
+  "per_class": {
+    "Baeolophus ridgwayi": {
+      "precision": 0.15384615384615385,
+      "recall": 0.25,
+      "f1": 0.19047619047619047,
+      "support": 24
+    },
+    "Catharus ustulatus": {
+      "precision": 0.4,
+      "recall": 0.125,
+      "f1": 0.19047619047619047,
+      "support": 32
+    },
+    "Chondestes grammacus": {
+      "precision": 0.2708333333333333,
+      "recall": 0.4642857142857143,
+      "f1": 0.34210526315789475,
+      "support": 28
+    },
+    "Melospiza lincolnii": {
+      "precision": 0.21428571428571427,
+      "recall": 0.08571428571428572,
+      "f1": 0.12244897959183673,
+      "support": 35
+    },
+    "Mimus polyglottos": {
+      "precision": 0.4444444444444444,
+      "recall": 0.46153846153846156,
+      "f1": 0.4528301886792453,
+      "support": 26
+    },
+    "Passerella schistacea": {
+      "precision": 0.1875,
+      "recall": 0.1935483870967742,
+      "f1": 0.19047619047619047,
+      "support": 31
+    },
+    "Passerina amoena": {
+      "precision": 0.04081632653061224,
+      "recall": 0.06060606060606061,
+      "f1": 0.04878048780487805,
+      "support": 33
+    },
+    "Salpinctes obsoletus": {
+      "precision": 0.20588235294117646,
+      "recall": 0.3333333333333333,
+      "f1": 0.2545454545454545,
+      "support": 42
+    },
+    "Setophaga occidentalis": {
+      "precision": 0.5185185185185185,
+      "recall": 0.875,
+      "f1": 0.6511627906976745,
+      "support": 16
+    },
+    "Spizella atrogularis": {
+      "precision": 0.5862068965517241,
+      "recall": 0.5483870967741935,
+      "f1": 0.5666666666666667,
+      "support": 31
+    },
+    "Spizella breweri": {
+      "precision": 0.5,
+      "recall": 0.3448275862068966,
+      "f1": 0.40816326530612246,
+      "support": 29
+    },
+    "Vireo cassinii": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 43
+    }
+  },
+  "confusion_matrix": [
+    [
+      6,
+      0,
+      12,
+      1,
+      0,
+      0,
+      1,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      4,
+      2,
+      0,
+      12,
+      0,
+      0,
+      5,
+      3,
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      0,
+      13,
+      0,
+      3,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      11,
+      3,
+      0,
+      2,
+      3,
+      12,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      1,
+      4,
+      0,
+      12,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      6,
+      0,
+      16,
+      2,
+      5,
+      0,
+      1
+    ],
+    [
+      12,
+      2,
+      0,
+      0,
+      0,
+      3,
+      2,
+      3,
+      0,
+      1,
+      5,
+      5
+    ],
+    [
+      1,
+      0,
+      0,
+      2,
+      0,
+      3,
+      13,
+      14,
+      2,
+      5,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      2,
+      4,
+      17,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      17,
+      0,
+      1,
+      1,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      8,
+      0,
+      9,
+      9,
+      12,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "classes": [
+    "Baeolophus ridgwayi",
+    "Catharus ustulatus",
+    "Chondestes grammacus",
+    "Melospiza lincolnii",
+    "Mimus polyglottos",
+    "Passerella schistacea",
+    "Passerina amoena",
+    "Salpinctes obsoletus",
+    "Setophaga occidentalis",
+    "Spizella atrogularis",
+    "Spizella breweri",
+    "Vireo cassinii"
+  ],
+  "val_macro_f1": 0.27742573590522535,
+  "best_epoch": 2,
+  "epochs_run": 10,
+  "parameters": 355084,
+  "device": "mps",
+  "training_seconds": 29.396754542001872,
+  "feature_sha256": "2c9e4813833708c4913c21c6b4b4d32c6078676605a14e748cda880b3a430e5d",
+  "assignment_sha256": "3144a172d8e5ebff6ef408aad09c54d273650c17bf1fb6351fa5d0f07f398cc4",
+  "split_counts": {
+    "train": {
+      "clips": 1896,
+      "recordings": 252
+    },
+    "val": {
+      "clips": 398,
+      "recordings": 54
+    },
+    "test": {
+      "clips": 370,
+      "recordings": 54
+    }
+  },
+  "evaluation_level": "clip",
+  "versions": {
+    "python": "3.13.1",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1"
+  },
+  "training_settings": {
+    "max_epochs": 40,
+    "patience": 8,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "seed": 42,
+    "class_weighting": "balanced, training clips only",
+    "optimizer": "Adam",
+    "scheduler": "ReduceLROnPlateau(factor=0.5, patience=3)"
+  },
+  "tuning": {
+    "selected_trial": "default",
+    "trials": [
+      {
+        "trial": "default",
+        "val_macro_f1": 0.27742573590522535,
+        "best_epoch": 2,
+        "epochs_run": 10,
+        "training_seconds": 29.396754542001872,
+        "training_settings": {
+          "max_epochs": 40,
+          "patience": 8,
+          "batch_size": 32,
+          "learning_rate": 0.001,
+          "weight_decay": 0.0001,
+          "dropout": 0.3,
+          "seed": 42,
+          "class_weighting": "balanced, training clips only",
+          "optimizer": "Adam",
+          "scheduler": "ReduceLROnPlateau(factor=0.5, patience=3)"
+        },
+        "feature_sha256": "2c9e4813833708c4913c21c6b4b4d32c6078676605a14e748cda880b3a430e5d"
+      },
+      {
+        "trial": "regularized",
+        "val_macro_f1": 0.2652286432401303,
+        "best_epoch": 8,
+        "epochs_run": 16,
+        "training_seconds": 43.930915832999744,
+        "training_settings": {
+          "max_epochs": 40,
+          "patience": 8,
+          "batch_size": 32,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.001,
+          "dropout": 0.5,
+          "seed": 42,
+          "class_weighting": "balanced, training clips only",
+          "optimizer": "Adam",
+          "scheduler": "ReduceLROnPlateau(factor=0.5, patience=3)"
+        },
+        "feature_sha256": "2c9e4813833708c4913c21c6b4b4d32c6078676605a14e748cda880b3a430e5d"
+      }
+    ],
+    "selection_metric": "validation macro F1",
+    "total_training_seconds": 73.32767037500162
+  }
+}

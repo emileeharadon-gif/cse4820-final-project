@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+.cache/
 
 # Downloaded audio and generated features stay local.
 data/raw/*
